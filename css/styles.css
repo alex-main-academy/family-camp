@@ -287,6 +287,7 @@ body {
 }
 
 .taming {
+  position: relative;
   width: 480px;
   margin: 0 auto;
   padding-top: 20px;
@@ -294,6 +295,16 @@ body {
   background-image: url(../img/fon3.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+.taming::before {
+  content: '';
+  position: absolute;
+  top: 125px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 3px;
+  height: 550px;
+  background-color: #c1c4c2;
 }
 .taming-title {
   font-family: 'Alumni Sans Pinstripe', serif;
@@ -512,10 +523,10 @@ body {
   margin-right: 25px;
 }
 .important-text {
-  font-size: 15px;
-  font-family: 'Cormorant Infant', serif;
+  font-size: 20px;
   font-weight: 400;
   font-style: italic;
+  color: #ca4e14;
 }
 .accent-text {
   text-transform: uppercase;
