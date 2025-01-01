@@ -217,6 +217,7 @@ body {
   font-size: 70px;
   text-align: center;
   color: white;
+  letter-spacing: -2px;
 }
 .time-numbers {
   font-family: 'Alumni Sans Pinstripe', serif;
