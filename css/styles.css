@@ -588,10 +588,16 @@ body {
 }
 
 footer {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 35px);
+  align-items: center;
+
   width: 480px;
   margin: 0 auto;
   background-color: #333333;
+  padding-inline: 20px;
 }
+
 .footer-text {
   padding: 15px 0;
   font-family: 'Alumni Sans Pinstripe', serif;
@@ -599,6 +605,10 @@ footer {
   font-style: normal;
   font-size: 15px;
   color: white;
-  text-align: center;
+  text-align: start;
   letter-spacing: 1px;
+}
+
+.footer-link {
+  padding: 5px;
 }
